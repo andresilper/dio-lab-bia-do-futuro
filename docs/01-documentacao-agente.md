@@ -63,7 +63,7 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
+| Interface | [Chatbot em Streamlit] |
 | LLM | [Ollama] |
 | Base de Conhecimento | [JSON/CSV com dados do cliente] |
 | Validação | [Checagem de alucinações] |
@@ -84,5 +84,3 @@ flowchart TD
 
 - Não acessa dados bancários sensíveis
 - Não substitui um profissional certificado
-
-[Liste aqui as limitações explícitas do agente]
