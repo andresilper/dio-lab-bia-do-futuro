@@ -34,8 +34,21 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+```
+import pandas as pd
+import json
 
+# CSV
+historico = pd.read_csv('data/historico_atendimento.csv')
+transacoes = pd.read_csv('data/transacoes.csv')
+
+#JSON
+with open('data/perfil_investidor.json', 'r', encoding='utf-8') as f:
+  perfil = json.load(f)
+
+with open('data/produtos)financeiros.json', 'r', encoding = 'utf-8') as f:
+  produtos = json.load(f)
+```
 ---
 
 ## Exemplo de Contexto Montado
