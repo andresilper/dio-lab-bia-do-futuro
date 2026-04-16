@@ -31,10 +31,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 [ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
 
-### Como os dados são usados no prompt?
-> Os dados vão no system prompt? São consultados dinamicamente?
-
-```
+```python
 import pandas as pd
 import json
 
@@ -48,6 +45,18 @@ with open('data/perfil_investidor.json', 'r', encoding='utf-8') as f:
 
 with open('data/produtos)financeiros.json', 'r', encoding = 'utf-8') as f:
   produtos = json.load(f)
+```
+
+### Como os dados são usados no prompt?
+> Os dados vão no system prompt? São consultados dinamicamente?
+```text
+Dados do cliente:
+
+Perfil do cliente:
+
+Transações do cliente:
+
+Produtos disponíveis para ensino:
 ```
 ---
 
