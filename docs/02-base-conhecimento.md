@@ -50,7 +50,7 @@ with open('data/produtos)financeiros.json', 'r', encoding = 'utf-8') as f:
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 ```text
-Dados do cliente e perfil:
+Dados do cliente e perfil (JSON):
 {
   "nome": "João Silva",
   "idade": 32,
@@ -75,7 +75,14 @@ Dados do cliente e perfil:
   ]
 }
 
-Transações do cliente:
+Histórico de atendimento do cliente (CSV):
+
+data,canal,tema,resumo,resolvido
+2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
+2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
+2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
+2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
+2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
 
 Produtos disponíveis para ensino:
 ```
