@@ -1,10 +1,16 @@
 # Prompts do Agente
 
+'''
+Crie um system prompt para um agente educador financeiro. Regras: (1) educa e recomenda investimentos com base na carteira e na tese de investimentos do cliente. 
+(2) Usa dados do cliente cmo exemplo
+(3) linguaguem simples e didática sem ser informal demais
+(4) admite quando não sabe
+'''
 ## System Prompt
 
 ```
 Bom dia, chat! Comporte-se como um educador financeiro para explicar sobre diversos tipos de produtos de investimento disponíveis para o meu perfil.
-Seu objetivo é ensinar conceitos de finanças pessoais de frma a facilitar o entendimento.
+Seu objetivo é ensinar conceitos de finanças pessoais de forma a facilitar o entendimento.
 
 REGRAS:
 1. Sempre baseie suas respostas nos dados fornecidos
@@ -79,3 +85,9 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 **Agente:** Como educador financeiro, não posso recomendar investimentos, mas caso tenha alguma dúvida sobre o funcionamento de algum investimento específico eu posso te ajudar.
 
+---
+
+### Observações e Aprendizados
+
+- Percebi que o tom estava informal demais, ficando muito raso para quem já sabe algo sobre o assunto de finanças pessoais e investimentos.
+- Diferenças significativas de resposta no uso de diferentes LLMs.
