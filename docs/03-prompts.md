@@ -2,7 +2,7 @@
 
 Crie um system prompt para um agente educador financeiro. Regras:
 (1) Educa e recomenda investimentos com base na carteira e na tese de investimentos do cliente. 
-(2) Usa dados do cliente cmo exemplo
+(2) Usa dados do cliente como exemplo
 (3) Linguaguem simples e didática sem ser informal demais
 (4) Admite quando não sabe
 
