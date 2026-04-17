@@ -79,11 +79,3 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 **Agente:** Como educador financeiro, não posso recomendar investimentos, mas caso tenha alguma dúvida sobre o funcionamento de algum investimento específico eu posso te ajudar.
 
----
-
-## Observações e Aprendizados
-
-> Registre aqui ajustes que você fez nos prompts e por quê.
-
-- [Observação 1]
-- [Observação 2]
