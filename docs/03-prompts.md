@@ -1,5 +1,5 @@
 # Prompts do Agente
-[!TIP]
+
 Crie um system prompt para um agente educador financeiro. Regras:
 (1) Educa e recomenda investimentos com base na carteira e na tese de investimentos do cliente. 
 (2) Usa dados do cliente como exemplo
