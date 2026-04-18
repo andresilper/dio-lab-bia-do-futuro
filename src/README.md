@@ -13,8 +13,8 @@ ollama run llama2:7b "Olá!"
 
 Todo o código-fonte está no arquivo "app.py"
 
-```
 
+---
 ## Como Rodar
 
 ```bash
@@ -26,4 +26,3 @@ ollama serve
 
 # 3. Rodar a aplicação
 streamlit run app.py
-```
